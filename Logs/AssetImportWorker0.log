@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22523.1000; Version 2009; 64bit' Language: 'en' Physical Memory: 12204 MB
+OS: 'Windows 10 Home; OS build 22543.1000; Version 2009; 64bit' Language: 'en' Physical Memory: 12204 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ E:/OUTSCAL-2D-Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65181
+58934
 Successfully changed project path to: E:/OUTSCAL-2D-Platformer
 E:/OUTSCAL-2D-Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 812.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 179.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002455 seconds.
+Registered in 0.002482 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 149.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.613 seconds
+- Completed reload, in  4.942 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7613ms)
-		BeginReloadAssembly (416ms)
+	ReloadAssembly (4942ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (897ms)
-			LoadAssemblies (408ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1101ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (331ms)
+			SetupTypeCache (342ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (360ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (498ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004526 seconds.
+Registered in 0.005536 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.165 seconds
+- Completed reload, in  2.554 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2166ms)
-		BeginReloadAssembly (305ms)
+	ReloadAssembly (2556ms)
+		BeginReloadAssembly (272ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1757ms)
-			LoadAssemblies (159ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2165ms)
+			LoadAssemblies (199ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (596ms)
+			SetupTypeCache (647ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (728ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (913ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (533ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (634ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
 Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.4 MB.
 System memory in use after: 86.5 MB.
 
-Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 2426.
-Total: 9.221100 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.129700 ms MarkObjects: 8.625100 ms  DeleteObjects: 0.124200 ms)
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 2427.
+Total: 10.319700 ms (FindLiveObjects: 0.260600 ms CreateObjectMapping: 0.165900 ms MarkObjects: 9.764200 ms  DeleteObjects: 0.127000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,48 +131,409 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00009.png
-  artifactKey: Guid(a9e9e74909b5a0947a093069d6a017cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00009.png using Guid(a9e9e74909b5a0947a093069d6a017cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab9f30bf3437e55a74ecfd38eb1eba4') in 0.178588 seconds 
-  Import took 0.509974 seconds .
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00027.png
+  artifactKey: Guid(881250471e7213f42819ba1d7bb1d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00027.png using Guid(881250471e7213f42819ba1d7bb1d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f553abb137627f53c4c6bc6d02d8df69') in 0.496151 seconds 
+  Import took 3.027233 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00005.png
-  artifactKey: Guid(a9c37448b62c0d149aced6ded9e44e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00005.png using Guid(a9c37448b62c0d149aced6ded9e44e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77c882c2474e68fbb605e0192048732') in 0.042423 seconds 
-  Import took 0.050087 seconds .
+  Time since last request: 0.001934 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00013.png
+  artifactKey: Guid(6469e4f4bdda7e8488924cf6ef74c464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00013.png using Guid(6469e4f4bdda7e8488924cf6ef74c464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3058d5d92b62240318683fdcde1a3095') in 0.113353 seconds 
+  Import took 0.265732 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00003.png
-  artifactKey: Guid(5a1cef7e9c9ed034da742d0e08ea786a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00003.png using Guid(5a1cef7e9c9ed034da742d0e08ea786a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e850db6cacef0459a922a8c21fc0eb0') in 0.045972 seconds 
-  Import took 0.055908 seconds .
+  Time since last request: 0.000668 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00023.png
+  artifactKey: Guid(9528c4275cc1a114f9e755b4d9084936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00023.png using Guid(9528c4275cc1a114f9e755b4d9084936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9ad273dda54660416472fe8e8ad950') in 0.096538 seconds 
+  Import took 0.211323 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00011.png
-  artifactKey: Guid(b5b9f448600b9aa4daa1d9fd5069a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00011.png using Guid(b5b9f448600b9aa4daa1d9fd5069a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765e786717b43eefd18601982dbe235d') in 0.045953 seconds 
-  Import took 0.054449 seconds .
+  Time since last request: 0.001075 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00019.png
+  artifactKey: Guid(80583dd2d497d144b8d2282bf2184cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00019.png using Guid(80583dd2d497d144b8d2282bf2184cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57057deb1b1925cc5605773df1f4288') in 0.156062 seconds 
+  Import took 0.191458 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00007.png
-  artifactKey: Guid(7d37e1dfeba60ea4a8803c12675079b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00007.png using Guid(7d37e1dfeba60ea4a8803c12675079b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1425d9cc4d7ea4aa3eaa8447e32498') in 0.038514 seconds 
-  Import took 0.045078 seconds .
+  Time since last request: 0.002260 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00029.png
+  artifactKey: Guid(63290ff7381eab84eb49e7b9345c809f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00029.png using Guid(63290ff7381eab84eb49e7b9345c809f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b148a6ad3de06158e951e4a5f24991') in 0.138394 seconds 
+  Import took 0.236138 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 162.732535 seconds.
-  path: Assets/Animation/Player/Crouch.anim
-  artifactKey: Guid(22b0ac0e3f9a74d42a78f092bcc9362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Crouch.anim using Guid(22b0ac0e3f9a74d42a78f092bcc9362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7991e93d6105d98f0e286a0e4c84cad3') in 0.024698 seconds 
-  Import took 0.030332 seconds .
+  Time since last request: 0.000482 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01
+  artifactKey: Guid(988a6db9324861049b4ebc411e7b1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01 using Guid(988a6db9324861049b4ebc411e7b1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9de02acf0d59ac6afb3122dadd706c') in 0.084544 seconds 
+  Import took 0.252574 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00015.png
+  artifactKey: Guid(3db4a46ab9121ab4c82e33ae0f3d8710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00015.png using Guid(3db4a46ab9121ab4c82e33ae0f3d8710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d62189fb1026e304ea9c3754ccf4de3') in 0.107515 seconds 
+  Import took 0.171313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00017.png
+  artifactKey: Guid(d9c068be09f82944db652218d2ef1c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00017.png using Guid(d9c068be09f82944db652218d2ef1c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc4e8bdc7ec46d99699007b607ae158') in 0.058992 seconds 
+  Import took 0.086870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00009.png
+  artifactKey: Guid(78a64664c88ec60478ced92e86dbb784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00009.png using Guid(78a64664c88ec60478ced92e86dbb784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e57c6a2875817c0b6771e896e68e521') in 0.058641 seconds 
+  Import took 0.161273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00007.png
+  artifactKey: Guid(665bd6d4ae06fea488861b4bdad2f04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00007.png using Guid(665bd6d4ae06fea488861b4bdad2f04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dc53410f73935c84fdd0eafc4284a9') in 0.098897 seconds 
+  Import took 0.131976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000860 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00003.png
+  artifactKey: Guid(7d008f32d5ec4f444bf86f436666060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00003.png using Guid(7d008f32d5ec4f444bf86f436666060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac59b7c75662c997881fb7ff7ba224bb') in 0.047734 seconds 
+  Import took 0.062746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00005.png
+  artifactKey: Guid(4d25e8426524e5d43a92fe2d594e4912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00005.png using Guid(4d25e8426524e5d43a92fe2d594e4912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c1f97fd9b8464d7fc377216e1b9c04') in 0.047421 seconds 
+  Import took 0.075273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00025.png
+  artifactKey: Guid(852dea1a4d9a29a45b32e544647320ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00025.png using Guid(852dea1a4d9a29a45b32e544647320ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301b98296c75090c3f3fb5b8600e722b') in 0.053001 seconds 
+  Import took 0.059192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00001.png
+  artifactKey: Guid(63543f60a4c70d546a5c4a0f63a2ad29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00001.png using Guid(63543f60a4c70d546a5c4a0f63a2ad29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b79c78e8972f1d75d593427efb03678') in 0.049703 seconds 
+  Import took 0.092128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00011.png
+  artifactKey: Guid(9391e70638fb9084ebf61e843059fdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00011.png using Guid(9391e70638fb9084ebf61e843059fdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2e7ab37221ea11aa11b4545f2a1f69') in 0.045391 seconds 
+  Import took 0.054224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00021.png
+  artifactKey: Guid(c995874838013244cac3056d42ced345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00021.png using Guid(c995874838013244cac3056d42ced345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8693b6d957ecc55333bf68418b872998') in 0.054176 seconds 
+  Import took 0.089053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 391.051427 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00001.png
+  artifactKey: Guid(57585d65d25175a4b82cdcd9092545ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00001.png using Guid(57585d65d25175a4b82cdcd9092545ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca72f9eae255a6fc0d7d8c0d3b448c1') in 0.102215 seconds 
+  Import took 0.147140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.198824 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00003.png
+  artifactKey: Guid(4b74c95301673024c9dbf47514f2cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00003.png using Guid(4b74c95301673024c9dbf47514f2cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfe97dcbc8a490dda4e57dcd567ea2a') in 0.060223 seconds 
+  Import took 0.081318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.474911 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00005.png
+  artifactKey: Guid(aefc8fcf439e0ae40bab5098679276b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00005.png using Guid(aefc8fcf439e0ae40bab5098679276b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b85a10e4c23449b5342e416d209ecc') in 0.104702 seconds 
+  Import took 0.205317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260196 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00007.png
+  artifactKey: Guid(c63c69d9fdf411147aede23769d5fcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00007.png using Guid(c63c69d9fdf411147aede23769d5fcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9bc0abc09ad0b662d8cff4f2eacccb') in 0.077401 seconds 
+  Import took 0.149423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077061 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00009.png
+  artifactKey: Guid(f7f3915fcb9a6744a9a147ed3ee26ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00009.png using Guid(f7f3915fcb9a6744a9a147ed3ee26ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718a674e2f1250d5ffe59056420c6b2c') in 0.112948 seconds 
+  Import took 0.190740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067612 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00011.png
+  artifactKey: Guid(e7f298e049bf3bb41bca4bbd8ceee9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00011.png using Guid(e7f298e049bf3bb41bca4bbd8ceee9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef9dbfb8134ef5b718f123559ae9a5b') in 0.081479 seconds 
+  Import took 0.282721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001952 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00013.png
+  artifactKey: Guid(8a9b494f275a2954aba6b318fc17d9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00013.png using Guid(8a9b494f275a2954aba6b318fc17d9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90899b24ba68c74556e55b70e44ce5cc') in 0.110750 seconds 
+  Import took 0.143352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070679 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00015.png
+  artifactKey: Guid(3bcc6973de396d247a99745a0c323d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00015.png using Guid(3bcc6973de396d247a99745a0c323d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4902c93f7fcbacb5d5b4b8eb70febdf') in 0.050764 seconds 
+  Import took 0.104203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115880 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00017.png
+  artifactKey: Guid(bf9cb13b45f6dfe41970b547e98bb782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00017.png using Guid(bf9cb13b45f6dfe41970b547e98bb782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c950c2926affa511d75c6db7c23c0acf') in 0.069724 seconds 
+  Import took 0.109108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082528 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00019.png
+  artifactKey: Guid(df6f54cd95dfdf148a5c4cc0aca6d49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00019.png using Guid(df6f54cd95dfdf148a5c4cc0aca6d49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1aa1f514581c7a41aaa882e895dd960') in 0.062393 seconds 
+  Import took 0.132289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080512 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00021.png
+  artifactKey: Guid(39f2b1de192463d41a4339ee2b5f2074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00021.png using Guid(39f2b1de192463d41a4339ee2b5f2074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c959bda4985c6f6e5faffd2fde918b9') in 0.077852 seconds 
+  Import took 0.084080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035520 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack
+  artifactKey: Guid(8e3685d9c7132994085534df28be4a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack using Guid(8e3685d9c7132994085534df28be4a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a336a58fb575e924490f9438936f98ec') in 0.030441 seconds 
+  Import took 0.120392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.453319 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02
+  artifactKey: Guid(5ea698e8a7bce224a8f0f4481abbd601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02 using Guid(5ea698e8a7bce224a8f0f4481abbd601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2852cd64b5a335828183a8afcd730b4a') in 0.020592 seconds 
+  Import took 0.073004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2648.727351 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00000.png
+  artifactKey: Guid(83fab85494452284baf4ef65fc8b0273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00000.png using Guid(83fab85494452284baf4ef65fc8b0273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7de16a26869ac7b212f19e97b08835') in 0.105882 seconds 
+  Import took 0.171544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.687619 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00001.png
+  artifactKey: Guid(7fb83f0538f2eaf4a9c6f3b08b60cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00001.png using Guid(7fb83f0538f2eaf4a9c6f3b08b60cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac151a273cd2df96f0c72c7367c0352') in 0.107540 seconds 
+  Import took 0.179100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.443616 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00002.png
+  artifactKey: Guid(7ab12a808aa8d054aaf50c2741246de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00002.png using Guid(7ab12a808aa8d054aaf50c2741246de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ad0d5462eea005d898b91b37ae9092') in 0.108679 seconds 
+  Import took 0.154268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274663 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00003.png
+  artifactKey: Guid(5c8d87881ea3aca4c9cea0978e1867ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00003.png using Guid(5c8d87881ea3aca4c9cea0978e1867ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bf9d09ca915ac58f539ba9b4fb1284') in 0.098466 seconds 
+  Import took 0.197114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093431 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00004.png
+  artifactKey: Guid(97b570f5218f6d94cadf8a8d195dd50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00004.png using Guid(97b570f5218f6d94cadf8a8d195dd50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b193ed4aefab58fc6995081a592423') in 0.079151 seconds 
+  Import took 0.118837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160824 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00005.png
+  artifactKey: Guid(e79c55edf28318b44b614f2eaf6cbb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00005.png using Guid(e79c55edf28318b44b614f2eaf6cbb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5c0acdaf76cebb0a4fbdad91cad554') in 0.069236 seconds 
+  Import took 0.132763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057774 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00006.png
+  artifactKey: Guid(a3b4037f6cee2ac4fb949a47aa4a4d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00006.png using Guid(a3b4037f6cee2ac4fb949a47aa4a4d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e9a43f6f975264a85fce9097366c5c') in 0.081193 seconds 
+  Import took 0.127657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084920 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00007.png
+  artifactKey: Guid(92fbfb056ce42c940aa543cf14a9084a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00007.png using Guid(92fbfb056ce42c940aa543cf14a9084a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db461bdff9defd8340317ee4f034f7d') in 0.069676 seconds 
+  Import took 0.150275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067654 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00008.png
+  artifactKey: Guid(0f341be85736cdc4bba911e059e0d16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00008.png using Guid(0f341be85736cdc4bba911e059e0d16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc91cad71625a707d3f9d3f1a77c7724') in 0.096489 seconds 
+  Import took 0.129360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093664 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00009.png
+  artifactKey: Guid(19b07ba4ccec70d4ebe4ed5e538cd326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00009.png using Guid(19b07ba4ccec70d4ebe4ed5e538cd326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7e89b37154667496d03beedcf2de92') in 0.070270 seconds 
+  Import took 0.109647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157610 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00011.png
+  artifactKey: Guid(904a520e37320ab4aa482b623e1d52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00011.png using Guid(904a520e37320ab4aa482b623e1d52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d00b6f5962d6d9d039c18e65129f7d') in 0.073692 seconds 
+  Import took 0.120257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084824 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00012.png
+  artifactKey: Guid(d6e05ebf12ef9164c9b792b7088c0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00012.png using Guid(d6e05ebf12ef9164c9b792b7088c0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3c01f69bbbcd4604b40cd8eaf6fb4a') in 0.066701 seconds 
+  Import took 0.090104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.402847 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00014.png
+  artifactKey: Guid(898a532c97728b244b14ffccd83b6f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00014.png using Guid(898a532c97728b244b14ffccd83b6f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e15d6e6cdbd3bc02620b0a8c80bb01') in 0.083187 seconds 
+  Import took 0.219985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00015.png
+  artifactKey: Guid(55e66892de31d424885bc2c774f07ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00015.png using Guid(55e66892de31d424885bc2c774f07ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aec7899d5e5c53e9220c2c727aee06d') in 0.081793 seconds 
+  Import took 0.089742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137130 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00016.png
+  artifactKey: Guid(0b6c45ce7a9a03d4d8f457818ab57430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00016.png using Guid(0b6c45ce7a9a03d4d8f457818ab57430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936d94469da3e8628b1452410d053dbf') in 0.084005 seconds 
+  Import took 0.169955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089629 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00017.png
+  artifactKey: Guid(6b460d0b7c81b4d4cb5f131f7eeda623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00017.png using Guid(6b460d0b7c81b4d4cb5f131f7eeda623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f88606a221918226e4604cc7b400ed') in 0.055084 seconds 
+  Import took 0.060743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121633 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00018.png
+  artifactKey: Guid(e701f6d3a4296e040ad8604e7ceaad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00018.png using Guid(e701f6d3a4296e040ad8604e7ceaad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccbe962a9c3fe6d4f8bae86aa9fe15e') in 0.096365 seconds 
+  Import took 0.128708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111385 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00019.png
+  artifactKey: Guid(41c27046edf6d694e875b5766f672a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00019.png using Guid(41c27046edf6d694e875b5766f672a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ba8640b872a253f72fbd0e6577425a') in 0.092690 seconds 
+  Import took 0.201353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00020.png
+  artifactKey: Guid(3fc8ba344d4587942a0b607b47985569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00020.png using Guid(3fc8ba344d4587942a0b607b47985569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f8d693dff7e8bd7c320c0c83cbf07a') in 0.091465 seconds 
+  Import took 0.159034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.960607 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00021.png
+  artifactKey: Guid(438b3b4b88bde4f4c9770d84b50b772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00021.png using Guid(438b3b4b88bde4f4c9770d84b50b772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea690d080424ab0ab93799c6770e602') in 0.099014 seconds 
+  Import took 0.132206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.645804 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00013.png
+  artifactKey: Guid(658639e2f4d2568479631f3a888fc691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00013.png using Guid(658639e2f4d2568479631f3a888fc691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2b4b4f9467f8564421cce7ae8dbd5a') in 0.094110 seconds 
+  Import took 0.127287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.328914 seconds.
+  path: Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00010.png
+  artifactKey: Guid(e94248daa5c32774fbf35a1cb4ecc4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut02/Ellen_RUN_GunOut_1s_00010.png using Guid(e94248daa5c32774fbf35a1cb4ecc4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a70c7ccfaad29c418f335eacfbc533a') in 0.058773 seconds 
+  Import took 0.086989 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
