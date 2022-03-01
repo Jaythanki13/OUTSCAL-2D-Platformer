@@ -1,86 +1,83 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float speed = 20f;
-    [SerializeField] Animator animator;
-    //[SerializeField] ScoreController scoreController;
-    //public GameObject gameOver;
-    public float jump;
-
-    private bool isCrouch = false;
-    private bool isDead = false;
-
-    [SerializeField]private Rigidbody2D rb;
-    private BoxCollider2D boxCollider;
-
-    [SerializeField] private LayerMask platformLayerMask;
+    Animator animator;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private float speed;
+    [SerializeField] private float jump;
 
     private void Awake()
     {
+        Debug.Log("Player controller awake");
         rb = gameObject.GetComponent<Rigidbody2D>();
-        boxCollider = gameObject.GetComponent<BoxCollider2D>();
+        SpriteRenderer sprite = gameObject.GetComponent<SpriteRenderer>();
     }
 
-   /* public void PickUpKey()
+    private void Start()
     {
-        SoundManager.Instance.Play(SoundManager.Sounds.Pickup);
-        scoreController.IncreaseScore(10);
-    }*/
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
 
-    private void FixedUpdate()
+    private void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Jump");
+        float vertical = Input.GetAxisRaw("Vertical");
 
-        if (!isDead)
+        PlayerMoving(horizontal, vertical);
+        PlayerMovememtAnimation(horizontal, vertical);
+    }
+
+    void PlayerMoving(float horizontal, float vertical)
+    {
+        //Move character horizontally
+        Vector3 position = transform.position;
+
+        // speed = distance / time;      timr.deltaTime = 1 / Frames per second
+        position.x = position.x + horizontal * speed * Time.deltaTime;
+        transform.position = position;
+
+        //Move character vertically
+        if (vertical > 0)
         {
-            PlayerMovement(horizontal, vertical);
-            Jump(horizontal, vertical);
-            Crouch();
+            animator.SetBool("Jumping", true);
+            rb.AddForce(new Vector2(0f, jump), ForceMode2D.Force);
+        }
+        else
+        {
+            animator.SetBool("Jumping", false);
         }
     }
 
-    private void Jump(float horizontal, float vertical)
+    void PlayerMovememtAnimation(float horizontal, float vertical)
     {
-        animator.SetBool("Jumping", (vertical > 0 && IsGrounded() && !isCrouch));
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
-        if (vertical > 0 && IsGrounded() && !isCrouch)
+        Vector3 scale = transform.localScale;
+
+        if (horizontal < 0)
         {
-            rb.velocity = Vector2.up * jump;
+            scale.x = -1f * Mathf.Abs(scale.x);
+        }
+        else if (horizontal > 0)
+        {
+            scale.x = Mathf.Abs(scale.x);
+        }
+        transform.localScale = scale;
+
+        //Jump
+
+        if (vertical > 0)
+        {
+            animator.SetBool("Jumping", true);
+        }
+        else
+        {
+            animator.SetBool("Jumping", false);
         }
     }
 
-    private void PlayerMovement(float horizontal, float vertical)
-    {
-        if (!isCrouch)
-        {
-            animator.SetFloat("Speed", Mathf.Abs(horizontal));
-
-            Vector3 scale = transform.localScale;
-            scale.x = horizontal < 0 ? -1f * Mathf.Abs(scale.x) : horizontal > 0 ? Mathf.Abs(scale.x) : scale.x;
-            transform.localScale = scale;
-
-            Vector3 position = transform.position;
-            position.x += horizontal * speed * Time.deltaTime;
-            transform.position = position;
-        }
-    }
-
-    private bool IsGrounded()
-    {
-        float extraHeight = 0.3f;
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0f, Vector2.down, extraHeight, platformLayerMask);
-        return raycastHit.collider != null;
-    }
-
-    private void Crouch()
-    {
-        animator.SetBool("Crouch", (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl)));
-        isCrouch = (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl));
-    }
 }
